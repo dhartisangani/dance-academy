@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Baloo+Bhai+2:wght@700&family=Bree+Serif&family=Lobster&family=Spirax&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 35px;
+    font-size: 15px;
+}
+#logo img{
+    height: 45px;
+    filter: invert();
+}
+#navbar{
+    background-color:#e13f3fdc;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size: 23px;
+    font-family: 'Lobster', cursive;
+}
+
+#navbar li a:hover{
+    color: black;
+    background-color: #e96f6f;
+    border-radius: 20px;
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arima', cursive;
+    font-size: 2.5rem;
+    flex-direction: column;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 450px;
+    background-color: red;
+  
+}
+#introsection div.small{
+    font-size: 1.5rem;
+    padding: 5px;
+    
+}
+#missionsection {
+    display: block;
+    height: 45px;
+    font-size: 1.2rem;
+    margin: auto;
+    width: 76%;
+}
+#missionsection h2{
+    font-size:2rem;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Spirax', cursive;
+}
+.card{
+    display: inline-block;
+    font-family: 'Arima', cursive;
+    border: 2px solid black;
+    background-color: #f0e4e442;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    font-weight: bold;
+    margin:4px 12px;
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 120px;
+    padding: 0 14px;
+    margin: 2px 12px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0px 10px;
+}
+.card-content p{
+    font-size: 18px;
+}
+#sponcersection {
+    background-color: #e5595929;
+    height: 275px;
+    font-family: 'Spirax', cursive;
+    font-size: 1.2rem;
+}
+#sponcers{
+    height: 191px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+.spimage{
+    height: 76%;
+    margin: 20px 35px;
+}
+
+#sponcersection h2{
+   text-align: center;
+   /* padding: 12px; */
+   padding-top: 18px
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Spirax', cursive;
+}
